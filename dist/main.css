@@ -6,7 +6,9 @@ body {
   font-family: arial, Trebuchet, sans-serif;
   font-size: 16px;
   color: #263555;
-  background: url(../assets/img/main-bg.jpg) 50% 0 no-repeat; }
+  background: url(../assets/img/main-bg.jpg) 50% 0 no-repeat; 
+  background-image: -Webkit-image-set(url(../assets/img/main-bg.jpg) 1x, url(../assets/img/main-bg.jpg) 2x);}
+
   body .wrapper {
     width: 1024px;
     margin-left: auto;
