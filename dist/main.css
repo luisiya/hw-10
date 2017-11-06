@@ -6,8 +6,11 @@ body {
   font-family: arial, Trebuchet, sans-serif;
   font-size: 16px;
   color: #263555;
-  background: url(../assets/img/main-bg.jpg) 50% 0 no-repeat; 
-  background-image: -Webkit-image-set(url(../assets/img/main-bg.jpg) 1x, url(../assets/img/main-bg.jpg) 2x);}
+
+  background: url(../assets/img/page-bg-2x-min.png) no-repeat 50% 0; 
+  
+ 
+/* background-image: -Webkit-image-set(url(../assets/img/main-bg.jpg) 1x, url(../assets/img/main-bg.jpg) 2x);*/}
 
   body .wrapper {
     width: 1024px;
@@ -111,7 +114,8 @@ body {
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  padding-top: 50px; }
+  padding-top: 50px; 
+padding-right:20px;}
   .gallery__items div {
     margin-bottom: 40px; }
     .gallery__items div:hover {
@@ -170,8 +174,7 @@ body {
 
 svg{
   width:30px;
-  font-color:gray;
-}
+  }
 .zoom{
   position:absolute;
   z-index:100;
@@ -298,4 +301,10 @@ svg{
 
 .footer-small__icons img:hover{
   filter: drop-shadow(2px 2px 2px black);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .body {
+    background: url(../assets/img/page-bg-3x-min.png) no-repeat;
+  }
 }
